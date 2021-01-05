@@ -1,0 +1,501 @@
+
+
+/************ mobile styles ***********/
+
+.uk-visible\@m.visibleontab {
+  display: none !important;
+}
+.aboutSection.emailopt .uk-grid,footer.footer-main .uk-grid {
+  margin-left: 0;
+}
+@media screen and (min-width:320px) and (max-width: 767px) {
+  .xs-no,
+  .service_slider_wrapper .uk-position-center-left,
+  .service_slider_wrapper .uk-position-center-right {
+    display: none;
+  }
+  .uk-section {
+    padding: 50px 0 !important;
+}
+.remove_m_padding_top{
+    padding-top: 0 !important;
+}
+  .header nav.uk-navbar-container.uk-navbar {
+    overflow: hidden;
+    height: 88px;
+  }
+  .header nav.uk-navbar-container.uk-navbar .logo a {
+    justify-content: left;
+  }
+  .header nav.uk-navbar-container.uk-navbar .logo {
+    position: static;
+  }
+  .header nav.uk-navbar-container.uk-navbar .logo img {
+    max-width: 60%;
+  }
+  .ham {
+    list-style: none;
+  }
+  .headtop .uk-float-right {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+  .headtop {
+    text-align: center;
+  }
+  .negative-170,
+  .aboutSection .uk-container .card-wrapper,
+  .emailopt .uk-container>.uk-grid {
+    margin: 0px;
+  }
+  .aboutSection .uk-container.card-wrapper {
+    margin-top: 30px;
+  }
+  #AboutSec .uk-first-column {
+    padding-left: 20px !important;
+}
+#AboutSec .reverse_s .uk-first-column{
+    padding-left: 40px !important;
+}
+  .aboutSection .uk-container .card-wrapper .uk-grid-match {
+    padding-bottom: 50px;
+  }
+  .bannerSilder {
+    height: auto;
+  }
+  .bannerSilder h2 {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'GothamBold';
+    margin: 0 auto 15px;
+    line-height: 2rem;
+  }
+  .twobanrbtn .btnz {
+    font-size: 14px !important;
+    padding: 9px 22px !important;
+  }
+  .bannerSilder .uk-panel img {
+    height: 300px;
+    object-fit: cover;
+  }
+  .bannerSilder p {
+    font-size: 16px;
+    font-family: 'GothamMedium';
+    margin: 10px 15px 20px;
+    line-height: 24px;
+  }
+  .reverse_s {
+    flex-direction: column-reverse;
+}
+.reverse_s.uk-grid>.uk-grid-margin {
+  margin-top: 50px;
+}
+  .padding-0 {
+    padding-left: 15px !important;
+  }
+  .aboutSection .uk-container.card-wrapper .padding-0.uk-first-column {
+  padding-left: 0px !important;
+}
+  .uk-padding-remove-left {
+    padding-left: 0px !important;
+  }
+  .footer-main .uk-grid > * {
+  padding-left: 0;
+}
+  .ServicesSection,
+  .donateSection {
+    padding: 50px 0 30px;
+  }
+  .uk-container-expand {
+    padding: 15px;
+  }
+  #map {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .text-center_m{
+    text-align: center;
+  }
+  .title h5 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  .title h3 {
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+  }
+  .Ellipse_2,
+  .Ellipse_3,
+  .Ellipse_flip {
+    width: 20%;
+  }
+  .footer-logo {
+    text-align: center;
+  }
+  .aboutSection {
+    padding: 0px 0 60px 0;
+  }
+  .emailopt .uk-grid>* {
+   padding: 0 15px;
+  }
+  .amount,
+  .frequency {
+    width: 100%;
+  }
+  .frequency ul li,
+  .amount ul li {
+    width: 100%;
+    margin: 0 0 10px;
+    padding: 12px 0;
+    text-align: center;
+  }
+  .aboutSection .uk-container.card-wrapper .uk-card:hover,
+  .aboutSection .uk-container.card-wrapper .uk-card.active {
+    transform: scale(1);
+  }
+  
+  .donation_box *+[class*="uk-align"] {
+    margin-top: 0;
+    z-index: 9;
+    position: relative;
+  }
+  .donateSection.testimonial {
+  padding-bottom: 160px;
+}
+  footer.footer-main .aboutSection.emailopt .uk-width-1-1\@s.uk-width-1-6\@m.uk-width-1-6\@l.uk-width-1-6\@xl.uk-first-column {
+  text-align: center;
+}
+footer.footer-main .aboutSection.emailopt .uk-width-expand\@m.uk-grid-margin.uk-first-column {
+  margin-top: 0;
+}
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+  .uk-visible\@m.visibleontab {
+  display: block !important;
+}
+.header nav.uk-navbar-container.uk-navbar .logo img {
+  max-width: 100%;
+}
+.header nav.uk-navbar-container.uk-navbar .uk-navbar-left {
+  width: 26% !important;
+}
+.xs-no,
+  .service_slider_wrapper .uk-position-center-left,
+  .service_slider_wrapper .uk-position-center-right {
+    display: none;
+  }
+  .header nav.uk-navbar-container.uk-navbar {
+    overflow: hidden;
+    height: 88px;
+  }
+  .header nav.uk-navbar-container.uk-navbar .logo a {
+    justify-content: left;
+  }
+  .header nav.uk-navbar-container.uk-navbar .logo {
+    position: static;
+  }
+  .uk-navbar-right .uk-navbar-nav li a {
+  font-size: 16px;
+  margin: 10px 0 10px 20px;
+}
+.header.fixed .uk-navbar-right .uk-navbar-nav li a {
+  margin: 10px 0 10px 20px;
+  transition: all 1s ease 0s;
+}
+.uk-navbar-right .uk-navbar-nav li a.applyBtn {
+  font-size: 16px;
+  margin: 10px 0 10px 20px;
+  padding: 12px 20px;
+}
+  .ham {
+    list-style: none;
+  }
+  .headtop .uk-float-right {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+  .headtop {
+    text-align: center;
+  }
+  .negative-170,
+  .emailopt .uk-container>.uk-grid {
+    margin: 0px;
+  }
+  .aboutSection .uk-container.card-wrapper {
+    margin-top: 30px;
+  }
+  .aboutSection .uk-container.card-wrapper .uk-grid-match {
+    padding-bottom: 50px;
+  }
+  .bannerSilder {
+    height: auto;
+  }
+  .bannerSilder h2 {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'GothamBold';
+    margin: 0 auto 15px;
+    line-height: 2rem;
+  }
+  .twobanrbtn .btnz {
+    font-size: 14px;
+    padding: 9px 22px;
+  }
+  .bannerSilder .uk-panel img {
+    height: 300px;
+    object-fit: cover;
+  }
+  .bannerSilder p {
+  font-size: 16px;
+  margin: 10px 25px 20px;
+  line-height: 24px;
+}
+.service_div_text {
+  min-height: auto;
+}
+  .padding-0 {
+    padding-left: 15px !important;
+  }
+  .uk-padding-remove-left {
+    padding-left: 30px !important;
+  }
+  .ServicesSection,
+  .donateSection {
+    padding: 50px 0 30px;
+  }
+  .uk-container-expand {
+    padding: 15px;
+  }
+  #map {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .title h5 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  .title h3 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .Ellipse_2,
+  .Ellipse_3,
+  .Ellipse_flip {
+    width: 20%;
+  }
+  .footer-logo {
+    text-align: center;
+  }
+  .aboutSection {
+    padding: 0px 0 60px 0;
+  }
+  .emailopt .uk-grid>* {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .amount,
+  .frequency {
+    width: 100%;
+  }
+  .aboutSection .uk-container.card-wrapper .uk-card:hover,
+  .aboutSection .uk-container.card-wrapper .uk-card.active {
+    transform: scale(1);
+  }
+  .donation_box *+[class*="uk-align"] {
+    margin-top: 0;
+    z-index: 9;
+    position: relative;
+  }
+  .donateSection.testimonial {
+  padding-bottom: 160px;
+}
+  footer.footer-main .aboutSection.emailopt .uk-width-1-1\@s.uk-width-1-6\@m.uk-width-1-6\@l.uk-width-1-6\@xl.uk-first-column {
+  text-align: center;
+}
+footer.footer-main .aboutSection.emailopt .uk-width-expand\@m.uk-grid-margin.uk-first-column {
+  margin-top: 0;
+}
+}
+
+
+@media screen and (min-width:1024px) and (max-width: 1279px) {
+.header nav.uk-navbar-container.uk-navbar .logo img {
+  max-width: 84%;
+}
+.uk-navbar-right .uk-navbar-nav li a {
+  font-size: 16px;
+  margin: 20px 0 20px 35px;
+}
+.uk-navbar-right .uk-navbar-nav li a.applyBtn {
+  font-size: 16px;
+  margin: 20px 0 20px 35px;
+  padding: 12px 20px;
+}
+.uk-navbar-item, .uk-navbar-nav > li > a, .uk-navbar-toggle {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.headtop .uk-float-right {
+  font-size: 14px;
+  letter-spacing: 0;
+}
+.negative-170 {
+  margin-top: 0;
+}
+.bannerSilder h2 {
+  font-size: 3.625rem;
+  line-height: 4.5rem;
+}
+.bannerSilder p {
+  font-size: 18px;
+  margin: 15px auto 25px;
+  line-height: 40px;
+}
+.aboutSection .uk-container.card-wrapper .uk-grid-small {
+  margin-left: 0;
+}
+  .title h5 {
+    margin-bottom: 5px;
+  }
+  .title h3 {
+  font-size: 40px;
+  line-height: 54px;
+}
+.service_slider_wrapper .uk-position-center-left {
+  left: -50px;
+}
+.service_slider_wrapper .uk-position-center-right {
+  right: -50px;
+}
+.serviceHeading {
+  font-size: 17px;
+}
+.ServicesSection {
+  padding: 80px 0;
+}
+.amount, .frequency {
+  width: 72%;
+  position: relative;
+}
+.form-wrapper {
+  position: relative;
+}
+.uk-content {
+  position: relative;
+  z-index: 1;
+}
+.aboutSection.emailopt .uk-grid,footer.footer-main .uk-grid {
+  margin-left: 0;
+}
+.emailopt .uk-container > .uk-grid {
+  padding-right: 60px;
+}
+.emailopt .title_form h3 {
+  font-size: 30px;
+}
+}
+
+
+
+@media screen and (min-width:1280px) and (max-width: 1365px) {
+.header nav.uk-navbar-container.uk-navbar .logo img {
+  max-width: 84%;
+}
+.uk-navbar-right .uk-navbar-nav li a {
+  font-size: 16px;
+  margin: 20px 0 20px 35px;
+}
+.uk-navbar-right .uk-navbar-nav li a.applyBtn {
+  font-size: 16px;
+  margin: 20px 0 20px 35px;
+  padding: 12px 20px;
+}
+.uk-navbar-item, .uk-navbar-nav > li > a, .uk-navbar-toggle {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.headtop .uk-float-right {
+  font-size: 14px;
+  letter-spacing: 0;
+}
+.negative-170 {
+  margin-top: -32px;
+}
+.bannerSilder h2 {
+  font-size: 3.625rem;
+  line-height: 4.5rem;
+}
+.bannerSilder p {
+  font-size: 18px;
+  margin: 15px auto 25px;
+  line-height: 40px;
+}
+.aboutSection .uk-container.card-wrapper .uk-grid-small {
+  margin-left: 0;
+}
+.service_slider_wrapper .uk-position-center-left {
+  left: -50px;
+}
+.service_slider_wrapper .uk-position-center-right {
+  right: -50px;
+}
+.ServicesSection {
+  padding: 80px 0;
+}
+.form-wrapper {
+  position: relative;
+}
+.uk-content {
+  position: relative;
+  z-index: 1;
+}
+.aboutSection.emailopt .uk-grid,footer.footer-main .uk-grid {
+  margin-left: 0;
+}
+}
+
+
+
+@media screen and (min-width:1366px) and (max-width: 1439px) {
+.negative-170 {
+  margin-top: -62px;
+}
+.service_slider_wrapper .uk-position-center-left {
+  left: -90px;
+}
+.service_slider_wrapper .uk-position-center-right {
+  right: -90px;
+}
+}
+
+
+@media screen and (min-width:1440px) and (max-width: 1599px) {
+.negative-170 {
+  margin-top: -76px;
+}
+}
+
+
+@media screen and (min-width:1600px) and (max-width: 1679px) {
+.negative-170 {
+  margin-top: -106px;
+}
+}
+
+
+@media screen and (min-width:1680px) and (max-width: 1739px) {
+.negative-170 {
+  margin-top: -130px;
+}
+}
+
+@media screen and (min-width: 1740px) {
+.negative-170 {
+  margin-top: -170px;
+}
+}
